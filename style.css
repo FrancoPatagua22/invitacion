@@ -134,9 +134,9 @@ ul  { list-style: none; }
    EDIT BUTTON (fixed top-right)
 ══════════════════════════════════════════════════════ */
 #btn-modo-editar {
-  display: flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
   z-index: 9999999 !important;
   align-items: center;
   gap: 6px;
