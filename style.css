@@ -1224,6 +1224,16 @@ ul  { list-style: none; }
   z-index: 2;
 }
 
+.welcome-subtitle-top {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  font-family: serif;
+  color: #F8F5EC;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .gold-text {
   font-family: 'Great Vibes', 'Parisienne', cursive !important;
   font-size: 5.5rem !important;
