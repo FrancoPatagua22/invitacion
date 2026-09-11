@@ -2,12 +2,12 @@
    DESIGN TOKENS
 ══════════════════════════════════════════════════════ */
 :root {
-  --color-bg:       #F8F7F2;
-  --color-accent:   #8B2E33;
-  --color-accent-h: #711f24;
-  --color-text:     #333333;
-  --color-text-soft:#6b6b6b;
-  --color-border:   #e0ddd4;
+  --color-bg:       #F8F5EC;
+  --color-accent:   #14304F;
+  --color-accent-h: #0C2038;
+  --color-text:     #2B3648;
+  --color-text-soft:#5B6B80;
+  --color-border:   #DCE2EA;
   --color-white:    #ffffff;
 
   --font-title: 'Playfair Display', serif;
@@ -18,7 +18,7 @@
   --radius-pill: 100px;
 
   --shadow-card: 0 4px 32px rgba(0,0,0,0.07);
-  --shadow-btn:  0 4px 20px rgba(139,46,51,0.30);
+  --shadow-btn:  0 4px 20px rgba(20,48,79,0.30);
 
   --transition: 0.25s ease;
 }
@@ -107,7 +107,7 @@ ul  { list-style: none; }
 .btn--solid:hover,
 .btn--solid:focus-visible {
   background-color: var(--color-accent-h);
-  box-shadow: 0 6px 28px rgba(139,46,51,0.40);
+  box-shadow: 0 6px 28px rgba(20,48,79,0.40);
   transform: translateY(-1px);
 }
 
@@ -118,7 +118,7 @@ ul  { list-style: none; }
 
 .btn--outline:hover,
 .btn--outline:focus-visible {
-  background-color: rgba(139,46,51,0.06);
+  background-color: rgba(20,48,79,0.06);
   transform: translateY(-1px);
 }
 
@@ -148,7 +148,7 @@ ul  { list-style: none; }
 
 #btn-modo-editar:hover,
 #btn-modo-editar:focus-visible {
-  background: var(--color-accent-h, #711f24) !important;
+  background: var(--color-accent-h, #0C2038) !important;
   transform: translateY(-1px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.5);
 }
@@ -324,7 +324,7 @@ ul  { list-style: none; }
 
 .form-input:focus {
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(139,46,51,0.12);
+  box-shadow: 0 0 0 3px rgba(20,48,79,0.12);
 }
 
 .form-input.error {
@@ -380,7 +380,7 @@ ul  { list-style: none; }
   padding: 48px 24px;
   text-align: center;
   overflow: hidden;
-  background: rgba(30,20,20,0.85);
+  background: rgba(10,20,35,0.9);
 }
 
 /* ── Slider layers ── */
@@ -403,7 +403,7 @@ ul  { list-style: none; }
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: rgba(20, 15, 15, 0.6);
+  background: rgba(10, 18, 32, 0.55);
   pointer-events: none;
 }
 
@@ -593,7 +593,7 @@ ul  { list-style: none; }
 .rules__card-icon {
   width: 64px;
   height: 64px;
-  background: rgba(139,46,51,0.08);
+  background: rgba(20,48,79,0.08);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -960,7 +960,7 @@ ul  { list-style: none; }
 }
 
 .add-guest-btn:hover {
-  background: rgba(139,46,51,0.06);
+  background: rgba(20,48,79,0.06);
 }
 
 .add-guest-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
@@ -1101,7 +1101,7 @@ ul  { list-style: none; }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;
-  box-shadow: 0 6px 28px rgba(139,46,51,0.45);
+  box-shadow: 0 6px 28px rgba(20,48,79,0.45);
   transition: all var(--transition);
 }
 
@@ -1109,7 +1109,7 @@ ul  { list-style: none; }
 .fab:focus-visible {
   background-color: var(--color-accent-h);
   transform: translateY(-2px);
-  box-shadow: 0 10px 36px rgba(139,46,51,0.5);
+  box-shadow: 0 10px 36px rgba(20,48,79,0.5);
 }
 
 .fab:active { transform: translateY(0); }
@@ -1200,8 +1200,8 @@ ul  { list-style: none; }
   position: fixed !important;
   top: 0 !important; left: 0 !important;
   width: 100vw !important; height: 100vh !important;
-  background-color: #3a0810 !important;
-  background-image: radial-gradient(circle at center, #4a0a15 0%, #2a050b 100%) !important;
+  background-color: #0B1830 !important;
+  background-image: radial-gradient(circle at center, #123157 0%, #060F1F 100%) !important;
   z-index: 1000000 !important;
   display: flex !important;
   justify-content: center !important;
@@ -1227,7 +1227,7 @@ ul  { list-style: none; }
 .gold-text {
   font-family: 'Great Vibes', 'Parisienne', cursive !important;
   font-size: 5.5rem !important;
-  color: #dcb579 !important;
+  color: #F8F5EC !important;
   line-height: 0.9 !important;
   margin: 0 !important;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.6) !important;
@@ -1243,7 +1243,7 @@ ul  { list-style: none; }
 .gold-ampersand {
   font-family: 'Great Vibes', 'Parisienne', cursive !important;
   font-size: 3.5rem !important;
-  color: #dcb579 !important;
+  color: #F8F5EC !important;
   margin: -5px 0 !important;
   font-weight: normal !important;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.6) !important;
@@ -1251,9 +1251,9 @@ ul  { list-style: none; }
 
 .btn-cream-gold {
   margin-top: 50px !important;
-  background-color: #f6efe1 !important;
-  color: #3a0810 !important;
-  border: 2px solid #dcb579 !important;
+  background-color: #F8F5EC !important;
+  color: #14304F !important;
+  border: 2px solid #14304F !important;
   padding: 16px 45px !important;
   font-size: 1rem !important;
   letter-spacing: 3px !important;
@@ -1272,7 +1272,7 @@ ul  { list-style: none; }
 
 .faltan-text {
   text-align: center;
-  color: #8b2e33;
+  color: #14304F;
   font-family: 'Parisienne', 'Great Vibes', cursive;
   font-size: 2rem;
   font-weight: normal;
@@ -1361,7 +1361,7 @@ span.hero_scroll-arrow {
 .mono-text {
   font-family: 'Courier New', monospace;
   font-size: 1rem;
-  color: #4a0913;
+  color: #14304F;
   letter-spacing: 0.5px;
   word-break: break-all;
 }
@@ -1372,7 +1372,7 @@ span.hero_scroll-arrow {
   outline: none;
   -webkit-appearance: none;
   box-shadow: none;
-  color: #4a0913;
+  color: #14304F;
   cursor: pointer;
   padding: 4px;
   display: flex;
@@ -1382,7 +1382,7 @@ span.hero_scroll-arrow {
   flex-shrink: 0;
 }
 
-.icon-copy-btn:hover { transform: scale(1.15); color: #8b2e33; }
+.icon-copy-btn:hover { transform: scale(1.15); color: #0C2038; }
 
 .icon-copy-btn.success { color: #27ae60; }
 
@@ -1404,7 +1404,7 @@ span.hero_scroll-arrow {
 /* Portada: flecha de scroll grande y dorada */
 .scroll-arrow-highlight {
   font-size: 3rem !important;
-  color: #f1c40f !important;
+  color: #F8F5EC !important;
   filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.5)) !important;
   animation: bounceArrow 2s ease-in-out infinite !important;
 }
@@ -1418,7 +1418,7 @@ span.hero_scroll-arrow {
 .salon-name-bold {
   font-weight: 900 !important;
   font-size: 1.8rem !important;
-  color: #4a0913 !important;
+  color: #14304F !important;
   font-family: var(--font-title) !important;
   text-align: center !important;
   margin-bottom: 6px !important;
@@ -1457,7 +1457,7 @@ span.hero_scroll-arrow {
 .rsvp-date-text {
   font-weight: 900 !important;
   font-size: 1.2rem !important;
-  color: #4a0913 !important;
+  color: #14304F !important;
   margin-bottom: 15px !important;
   line-height: 1.4 !important;
 }
@@ -1484,5 +1484,5 @@ span.hero_scroll-arrow {
     height: auto !important;
     border-radius: 15px !important;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
-    border: 3px solid rgba(212, 175, 55, 0.2) !important; /* Borde sutil dorado */
+    border: 3px solid rgba(20, 48, 79, 0.25) !important; /* Borde sutil azul marino */
 }
