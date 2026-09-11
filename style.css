@@ -1485,7 +1485,7 @@ span.hero_scroll-arrow {
 .single-gallery-container {
     width: 100% !important;
     max-width: 700px !important;
-    margin: 40px auto !important;
+    margin: 80px auto 40px auto !important; /* Mayor espacio arriba */
     padding: 0 20px !important;
     text-align: center !important;
 }
